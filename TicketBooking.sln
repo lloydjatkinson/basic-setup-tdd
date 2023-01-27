@@ -5,6 +5,7 @@ VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9C04F5E7-A794-4A43-9865-14452920B07B}"
 	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
 		README.md = README.md
 	EndProjectSection
 EndProject
@@ -13,6 +14,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBooking.Domain", "src\TicketBooking.Domain\TicketBooking.Domain.csproj", "{8F668680-575D-4B5A-AFC9-64D46F4F9210}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBooking.Test", "test\TicketBooking.Test\TicketBooking.Test.csproj", "{1B954D5C-C16B-4FF4-8911-73DDD2EDB082}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBooking.Extra", "src\TicketBooking.Extra\TicketBooking.Extra.csproj", "{A7BA1EAD-5627-49EC-ACE2-FA957B0C836B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extra", "Extra", "{AABD0B86-239A-4C39-A0DC-20B8605D4381}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketBooking.Extra.Test", "src\TicketBooking.Extra.Test\TicketBooking.Extra.Test.csproj", "{986D3802-C154-4015-93CB-3D06A3828DFB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,9 +39,21 @@ Global
 		{1B954D5C-C16B-4FF4-8911-73DDD2EDB082}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1B954D5C-C16B-4FF4-8911-73DDD2EDB082}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1B954D5C-C16B-4FF4-8911-73DDD2EDB082}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7BA1EAD-5627-49EC-ACE2-FA957B0C836B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7BA1EAD-5627-49EC-ACE2-FA957B0C836B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7BA1EAD-5627-49EC-ACE2-FA957B0C836B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7BA1EAD-5627-49EC-ACE2-FA957B0C836B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{986D3802-C154-4015-93CB-3D06A3828DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{986D3802-C154-4015-93CB-3D06A3828DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{986D3802-C154-4015-93CB-3D06A3828DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{986D3802-C154-4015-93CB-3D06A3828DFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7BA1EAD-5627-49EC-ACE2-FA957B0C836B} = {AABD0B86-239A-4C39-A0DC-20B8605D4381}
+		{986D3802-C154-4015-93CB-3D06A3828DFB} = {AABD0B86-239A-4C39-A0DC-20B8605D4381}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B858B065-1AC2-42E3-BF15-4D165617F3D5}
