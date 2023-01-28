@@ -29,4 +29,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\TicketBooking.Application\TicketBooking.Application.csproj" />
+  </ItemGroup>
+
 </Project>

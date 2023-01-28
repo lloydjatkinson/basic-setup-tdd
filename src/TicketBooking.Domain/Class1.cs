@@ -4,4 +4,8 @@
     {
 
     }
+
+    public class Seat { }
+
+    public class Theatre { }
 }
